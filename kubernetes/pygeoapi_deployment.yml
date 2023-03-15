@@ -135,11 +135,11 @@ data:
           - type: feature
             name: PostgreSQL
             data:
-                host: ngfs-postgres-postgresql
+                host: ngfs-db-postgresql
                 port: 5432 # Default 5432 if not provided
                 dbname: postgres
                 user: postgres
-                password: LMhLYZKzqv
+                password: POSTGRES_PASSWORD
                 search_path: [public]
             id_field: id
             table: ngfs_detections
